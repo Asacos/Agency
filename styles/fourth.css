@@ -1,0 +1,44 @@
+.fourth {
+	background-color: #343534;
+}
+
+.fourth .box {
+	padding-top: 116px;
+	padding-left: 377px;
+	width: 687px;
+	text-align: center;
+}
+
+.fourth h2 {
+	margin-top: 8px;
+}
+
+.fourth p {
+	margin-top: 12px;
+	font-size: 17px;
+}
+
+.fourth .container {
+	margin-top: 72px;
+	margin-left: 135px;
+	padding-bottom: 116px;
+	display: flex;
+	white-space: nowrap;
+}
+
+.fourth .container div{
+	margin-right: 82px;
+}
+
+.fourth .container span {
+	color: #F5CD76;
+	font-family: "DM Serif Display", serif;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.fourth .container p {
+	margin-top: 24px;
+	font-size: 15px;
+	width: 169px;
+}

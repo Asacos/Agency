@@ -1,0 +1,28 @@
+.fifth {
+	padding: 0 135px;
+}
+
+.fifth .container {
+	margin: 116px 0;
+	display: flex;
+    align-items: center;
+	white-space: nowrap;
+} 
+
+.fifth img {
+	width: 560px;
+}
+
+.fifth .box {
+	margin-left: 72px;
+}
+
+.fifth h3 {
+	margin-top: 8px;
+}
+
+.fifth p {
+	margin-top: 12px;
+	font-size: 17px;
+	line-height: 150%;
+}

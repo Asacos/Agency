@@ -1,0 +1,43 @@
+header {
+	background: #292A29;
+}
+
+header .container {
+	padding-top: 32px;
+}
+
+header .box {
+	display: flex;
+    align-items: center;
+	white-space: nowrap;
+}
+
+header .logo {
+	margin-left: 135px;
+	display: inline-block;
+} 
+
+header img {
+	width: 116px;
+	height: 48px;
+}
+
+header nav {
+	margin-top: 6px;
+	margin-left: 120px;
+	display: inline-block;
+}
+
+header a {
+	font-size: 15px;
+	text-decoration: none;
+	font-family: "DM sans", sans-serif;
+	color: #FFFFFF;
+	margin-right: 24px;
+}
+
+header button {
+	margin-top: 0;
+	margin-left: 122px;
+	padding: 14px 24px;
+}
