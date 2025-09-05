@@ -10,7 +10,7 @@
 .sixth .boxes {
 	margin-top: 50px;
 	display: flex;
-	white-space: nowrap;
+	white-space: wrap;
 }
 
 .sixth .box {

@@ -4,7 +4,11 @@
 	margin-bottom: 116px;
 	display: flex;
 	align-items: center;
-	white-space: nowrap;
+	white-space: wrap;
+}
+
+.seventh .box {
+	width: 483px;
 }
 
 .seventh h3 {

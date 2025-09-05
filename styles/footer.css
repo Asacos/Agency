@@ -6,11 +6,15 @@ footer {
 
 footer .container {
 	display: flex;
-	white-space: nowrap;
+	white-space: wrap;
 }
 
 footer .box {
 	margin-right: 109px;
+}
+
+footer .about {
+	width: 315px;
 }
 
 footer .logo img {
