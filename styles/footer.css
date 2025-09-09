@@ -6,7 +6,6 @@ footer {
 
 footer .container {
 	display: flex;
-	white-space: wrap;
 }
 
 footer .box {
@@ -42,12 +41,10 @@ footer .container2 {
 	margin-top: 60px;
 	padding-bottom: 92px; 
 	display: flex;
-	white-space: nowrap;
 }
 
 footer .container2 .box {
 	display: flex;
-	white-space: nowrap;
 	margin-left: 614px;
 }
 

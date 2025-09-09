@@ -19,7 +19,6 @@
 .second .images {
 	margin-top: 48px;
 	display: flex;
-	white-space: nowrap;
 }
 
 .second .images .image {
