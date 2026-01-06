@@ -1,0 +1,46 @@
+.inside {
+	display: flex;
+	justify-content: center;
+}
+
+.inside__main-heading {
+	margin: 0 280px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 53px;
+	font-weight: 400;
+}
+
+.inside__boxes {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.inside__box {
+	background: #292A29;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 370px;
+}
+
+.inside__box__text {
+	padding: 24px;
+}
+
+.inside__box__secondary-heading {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.inside__box__desc {
+	margin-top: 12px;
+}
+
+.inside__hug {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}

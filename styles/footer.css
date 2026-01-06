@@ -1,53 +1,48 @@
-footer {
+.footer {
 	background: #292A29;
 	padding-top: 92px;
-	padding-left: 135px;
-}
-
-footer .container {
 	display: flex;
+	justify-content: center;
 }
 
-footer .box {
-	margin-right: 109px;
+.footer__container-up {
+	display: flex;
+	justify-content: space-between;
+	gap: 109px
 }
 
-footer .about {
+.footer__about {
 	width: 315px;
 }
 
-footer .logo img {
-	width: 83px;
+.footer__logo {
 	margin-bottom: 12px;
 }
 
-footer p {
+.footer__text {
 	color: #767676;
 }
 
-footer .icons img {
+.footer__icons{
 	margin-top: 32px;
-	width: 150px;
 }
 
-footer h5 {
+.footer__heading {
 	color: #FFFFFF;
-	font-family: "DM sans", sans-serif;
 	font-size: 27px;
 	margin-bottom: 24px;
 }
 
-footer .container2 {
+.footer__container-down {
 	margin-top: 60px;
 	padding-bottom: 92px; 
 	display: flex;
+	justify-content: space-between;
+	gap: 614px;
 }
 
-footer .container2 .box {
+.footer__container-down__box {
 	display: flex;
-	margin-left: 614px;
-}
-
-footer .container2 .box p {
-	margin-right: 40px;
+	justify-content: space-between;
+	gap: 40px;
 }

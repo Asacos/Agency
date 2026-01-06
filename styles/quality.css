@@ -1,0 +1,50 @@
+.quality {
+	background-color: #343534;
+	display: flex;
+	justify-content: center;
+}
+
+.quality__content {
+	width: 1170px;
+}
+
+.quality__box {
+	padding-top: 116px;
+	width: 687px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.quality__heading {
+	margin-top: 8px;
+	color: #FFFFFF;
+	font-size: 53px;
+	font-weight: 400;
+}
+
+.quality p {
+	margin-top: 12px;
+	font-size: 17px;
+}
+
+.quality__container {
+	margin-top: 72px;
+	padding-bottom: 116px;
+	display: flex;
+	justify-content: space-between;
+	gap: 82px;
+
+}
+
+.quality__container span {
+	color: #F5CD76;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.quality__container p {
+	margin-top: 24px;
+	font-size: 15px;
+	width: 169px;
+}

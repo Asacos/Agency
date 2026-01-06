@@ -2,298 +2,292 @@
 <html>
 <head>
 	<title>Agency</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9.x.40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="styles/general.css">
-	<link rel="stylesheet" href="styles/header.css">
-	<link rel="stylesheet" href="styles/first.css">
-	<link rel="stylesheet" href="styles/second.css">
-	<link rel="stylesheet" href="styles/third.css">
-	<link rel="stylesheet" href="styles/fourth.css">
-	<link rel="stylesheet" href="styles/fifth.css">
-	<link rel="stylesheet" href="styles/sixth.css">
-	<link rel="stylesheet" href="styles/seventh.css">
-	<link rel="stylesheet" href="styles/footer.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="box">
-				<div class="logo">
-					<img src="images/logo.png" alt="logo"/>
-				</div>
-				<nav>
-					<a href="#">Home</a>
-					<a href="#">Consulting Service</a>
-					<a href="#">Industries Seryed</a>
-					<a href="#">Our Proces</a>
-					<a href="#">Clicent & Results</a>
-					<a href="#">Careers</a>
-				</nav>
-				<button>Contact Us</button>
-			</div>
+	<header class="header">
+		<div class="header__container">
+			<img src="images/logo.png" width="116px" height="48px" alt="logo"/>
+			<nav>
+				<ul class="header__link-list">
+					<li><a href="#" class="header__link">Home</a></li>
+					<li><a href="#" class="header__link">Consulting Service</a></li>
+					<li><a href="#" class="header__link">Industries Seryed</a></li>
+					<li><a href="#" class="header__link">Our Proces</a></li>
+					<li><a href="#" class="header__link">Clicent & Results</a></li>
+					<li><a href="#" class="header__link">Careers</a></li>
+				</ul>
+			</nav>
+			<button class="header__button">Contact Us</button>
 		</div>
 	</header>
 	<main>
-		<div class="first">
-			<div class="container">
-				<span>Supply Chain Consulting</span>
-				<h1>From strategy to delivery, on time every time</h1>
-				<p>
-					ABC Consulting is an operational consulting firm 
-					focused on global supply chain implementation and 
-					diversification,Consulting is an
-				</p>
-				<button>About Us</button>
+		<section class="cunsulting">
+			<div class="cunsulting__container">
+				<div class="cunsulting__box">
+					<span>Supply Chain Consulting</span>
+					<h1 class="cunsulting__heading">From strategy to delivery, on time every time</h1>
+					<p class="cunsulting__desc">
+						ABC Consulting is an operational consulting firm 
+						focused on global supply chain implementation and 
+						diversification,Consulting is an
+					</p>
+					<button class="cunsulting__about">About Us</button>
+				</div>
+				<img src="images/first.png" class="cunsulting__image" width="493px" height="585" alt="image"/>
 			</div>
-			<div class="image">
-				<img src="images/first.png" alt="image"/>
-			</div>
-		</div>
-		<div class="second">
-			<div class="container">
-				<div class="box">
-					<h2>ABC supply chain diversification & acceleration</h2>
-					<p>
+		</section>
+		<section class="supply">
+			<div class="supply__container">
+				<div class="supply__box">
+					<h2 class="supply__heading">ABC supply chain diversification & acceleration</h2>
+					<p class="supply__desc">
 						ABC Consulting is an operational consulting firm focused on 
 						global supply chain implementation and diversification, 
 					</p>
 				</div>
-				<div class="images">
-					<div class="image">
-						<img src="images/second-1.png" alt="Marketing Sales &"/>
+				<div class="supply__images">
+					<div class="supply__image">
+						<img src="images/second-1.png" width="270px" height="229px" alt="Marketing Sales &"/>
 					</div>
-					<div class="image">
-						<img src="images/second-2.png" alt="Skill-Based Training"/>
+					<div class="supply__image">
+						<img src="images/second-2.png" width="270px" height="229px" alt="Skill-Based Training"/>
 					</div>
-					<div class="image">
-						<img src="images/second-3.png" alt="Infrastructure Sourcing IT"/>
+					<div class="supply__image">
+						<img src="images/second-3.png" width="270px" height="229px" alt="Infrastructure Sourcing IT"/>
 					</div>
-					<div class="image">
-						<img src="images/second-4.png" alt="Communication & Media Services"/>
+					<div class="supply__image">
+						<img src="images/second-4.png" width="270px" height="229px" alt="Communication & Media Services"/>
 					</div>
 				</div>
-				<div class="hug">
-					<img src="images/hug.png" />
+				<div class="supply__hug">
+					<img src="images/hug.png" width="81px" height="10px" alt="" />
 				</div>
 			</div>
-		</div>
-		<div class="third">
-			<div class="container">
-				<div class="image">
-					<img src="images/third-1.png" alt="image" />
+		</section>
+		<section class="areas">
+			<div class="areas__content">
+				<div class="areas__container areas__upper">
+					<div class="areas__image">
+						<img src="images/third-1.png" width="560px" height="560px" alt="image" />
+					</div>
+					<div class="areas__box">
+						<span>REDESIGNING YOUR SUPPLY CHAIN</span>
+						<h2 class="areas__heading">TOP 6 FOCUS AREAS FOR SUCCESS</h2>
+						<ol class="areas__list">
+							<li class="areas__list__item">Tooling considerations (transfer tooling vs. new tooling vs.</li>
+							<li class="areas__list__item">Logistics Network Optimization</li>
+							<li class="areas__list__item">Cost to onboard and approve new suppliers</li>
+							<li class="areas__list__item">Undocumented specifications or supplier owned drawings</li>
+							<li class="areas__list__item">New Product Introduction and Rapid Prototyping</li>
+							<li class="areas__list__item">Manufacturing location (Greenfield, Brownfield, JV, Maquiladora, Vertical Integration, etc.)</li>
+						</ol>
+						<button class="areas__reading">Reading</button>
+					</div>
 				</div>
-				<div class="box right">
-					<span>REDESIGNING YOUR SUPPLY CHAIN</span>
-					<h3>TOP 6 FOCUS AREAS FOR SUCCESS</h3>
-					<ol>
-						<li>Tooling considerations (transfer tooling vs. new tooling vs.</li>
-						<li>Logistics Network Optimization</li>
-						<li>Cost to onboard and approve new suppliers</li>
-						<li>Undocumented specifications or supplier owned drawings</li>
-						<li>New Product Introduction and Rapid Prototyping</li>
-						<li>Manufacturing location (Greenfield, Brownfield, JV, Maquiladora, Vertical Integration, etc.)</li>
-					</ol>
-					<button>Reading</button>
-				</div>
-			</div>
-			<div class="container">
-				<div class="box left">
-					<span>THE GREAT</span>
-					<h3>MANUFACTURING MIGRATION</h3>
-					<p>
-						Many Global OEM and multinational consumer product 
-						corporations are embarking on a journey of 
-						transformation relative to establishing rooftops and 
-						manufacturing
-					</p>
-					<button>Reading</button>
-				</div>
-				<div class="image">
-					<img src="images/third-2.png" alt="image" />
-				</div>
-			</div>
-		</div>
-		<div class="fourth">
-			<div class="box">
-				<span>AT OUR CORE</span>
-				<h2>Execution quality that drives sustain able results</h2>
-				<p>
-					Many Global OEM and multinational consumer product corporations 
-					are embarking on a journey of transformationMany Global OEM and
-				</p>
-			</div>
-			<div class="container">
-				<div>
-					<span>98 YEARS</span>
-					<p>
-						of combined partner experience of combined
-						partner experience
-					</p>
-				</div>
-				<div>
-					<span>37 YEARS</span>
-					<p>
-						Experience as a supply Chain firmExperience as a 
-						supply Chain firm
-					</p>
-				</div>
-				<div>
-					<span>$8 Billion</span>
-					<p>
-						Saved for our clients globallySaved for our clients 
-						globally
-					</p>
-				</div>
-				<div>
-					<span>18-22%</span>
-					<p>
-						average client savings over the last 25 years 
-						average client
-					</p>
-				</div>
-				<div>
-					<span>50-186%</span>
-					<p>
-						typical client EBITDA impact fstrategictypical client 
-						EBITDA impact
-					</p>
+				<div class="areas__container areas__lower">
+					<div class="areas__box">
+						<span>THE GREAT</span>
+						<h2 class="areas__heading">MANUFACTURING MIGRATION</h2>
+						<p class="areas__desc">
+							Many Global OEM and multinational consumer product 
+							corporations are embarking on a journey of 
+							transformation relative to establishing rooftops and 
+							manufacturing
+						</p>
+						<button class="areas__reading">Reading</button>
+					</div>
+					<div class="areas__image">
+						<img src="images/third-2.png" width="560px" height="560px" alt="image" />
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="fifth">
-			<div class="container">
-				<div class="image">
-					<img src="images/fifth.png" alt="image" />
+		</section>
+		<section class="quality">
+			<div class="quality__content">
+				<div class="quality__box">
+					<span>AT OUR CORE</span>
+					<h2 class="quality__heading">Execution quality that drives sustain able results</h2>
+					<p>
+						Many Global OEM and multinational consumer product corporations 
+						are embarking on a journey of transformationMany Global OEM and
+					</p>
 				</div>
-				<div class="box">
+				<div class="quality__container">
+					<div>
+						<span>98 YEARS</span>
+						<p>
+							of combined partner experience of combined
+							partner experience
+						</p>
+					</div>
+					<div>
+						<span>37 YEARS</span>
+						<p>
+							Experience as a supply Chain firmExperience as a 
+							supply Chain firm
+						</p>
+					</div>
+					<div>
+						<span>$8 Billion</span>
+						<p>
+							Saved for our clients globallySaved for our clients 
+							globally
+						</p>
+					</div>
+					<div>
+						<span>18-22%</span>
+						<p>
+							average client savings over the last 25 years 
+							average client
+						</p>
+					</div>
+					<div>
+						<span>50-186%</span>
+						<p>
+							typical client EBITDA impact fstrategictypical client 
+							EBITDA impact
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="methodology">
+			<div class="methodology__container">
+				<img src="images/fifth.png" width="560px" height="560px" alt="image" />
+				<div class="methodology__box">
 					<span>METHODOLOGY</span>
-					<h3>
+					<h2 class="methodology__heading">
 						We Measure success through actual and sustainable  
 						finance
-					</h3>
-					<p>
+					</h2>
+					<p class="methodology__desc">
 						Many Global OEM and multinational consumer product 
 						corporations are embarking on a journey of 
 						transformation Many Global OEM and multinational consumer 
 						product corporations are embarking on a journey of supply 
 						chain counslting.
 					</p>
-					<button>Our 11 Gate</button>
+					<button class="methodology__button">Our 11 Gate</button>
 				</div>
 			</div>
-		</div>
-		<div class="sixth">
-			<div class="container">
-				<h2>Inside ABC supply chain<br>consulting</h2>
-				<div class="boxes">
-					<div class="box">
-						<div class="image">
-							<img src="images/sixth-1.png" alt="image" />
+		</section>
+		<section class="inside">
+			<div class="inside__container">
+				<h2 class="inside__main-heading">Inside ABC supply chain<br>consulting</h2>
+				<div class="inside__boxes">
+					<div class="inside__box">
+						<div class="inside__box__image">
+							<img src="images/sixth-1.png" width="370px" height="264px" alt="image" />
 						</div>
-						<h6>Founder Christopher discusses the  ABC approach</h6>
-						<p>
-							According to recent figures, Bangladesh currently has a 
-							literacy According toIs the recent figures, Bangladesh 
-						</p>
+						<div class="inside__box__text">
+							<h3 class="inside__box__secondary-heading">Founder Christopher discusses the  ABC approach</h3>
+							<p class="inside__box__desc">
+								According to recent figures, Bangladesh currently has a 
+								literacy According toIs the recent figures, Bangladesh 
+							</p>
+						</div>
 					</div>
-					<div class="box">
-						<div class="image">
-							<img src="images/sixth-2.png" alt="image" />
+					<div class="inside__box">
+						<div class="inside__box__image">
+							<img src="images/sixth-2.png" width="370px" height="264px" alt="image" />
 						</div>
-						<h6>
-							The link for sustainable succes & results withhin supply 
-							chan
-						</h6>
-						<p>
-							According to recent figures, Bangladesh currently has a 
-							literacy According toIs the recent figures, Bangladesh
-						</p>
+						<div class="inside__box__text">
+							<h3 class="inside__box__secondary-heading">
+								The link for sustainable succes & results withhin supply 
+								chan
+							</h3>
+							<p class="inside__box__desc">
+								According to recent figures, Bangladesh currently has a 
+								literacy According toIs the recent figures, Bangladesh
+							</p>
+						</div>
 					</div>
-					<div class="box">
-						<div class="image">
-							<img src="images/sixth-3.png" alt="image" />
+					<div class="inside__box">
+						<div class="inside__box__image">
+							<img src="images/sixth-3.png" width="370px" height="264px" alt="image" />
 						</div>
-						<h6>How to Overcome Trade War, Covid-19, And Supply Risk?</h6>
-						<p>
-							According to recent figures, Bangladesh urrently has a 
-							literacy According toIs the recent figures, Bangladesh 
-						</p>
+						<div class="inside__box__text">
+							<h3 class="inside__box__secondary-heading">How to Overcome Trade War, Covid-19, And Supply Risk?</h3>
+							<p class="inside__box__desc">
+								According to recent figures, Bangladesh urrently has a 
+								literacy According toIs the recent figures, Bangladesh 
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="hug">
-					<img src="images/hug.png" />
+				<div class="inside__hug">
+					<img src="images/hug.png" width="81px" height="10px" alt=""/>
 				</div>				
 			</div>
-		</div>
-		<div class="seventh">
-			<div class="box">
-				<span>LET’S DO THIS</span>
-				<h3>Together we give you best service</h3>
-				<p>
-					Take the next step by learning more about Gibson Consulting’s 
-					capabilities and qualifications. To request information or 
-					arrange face-to-face introduction,<br><br>Simply fill out the 
-					form below or give us a call at 312.291.4640.Take the next 
-					step by learning more.
-				</p>
-				<button>Leran More</button>
+		</section>
+		<section class="feedback">
+			<div class="feedback__container">
+				<div class="feedback__box">
+					<span>LET’S DO THIS</span>
+					<h2 class="feedback__heading">Together we give you best service</h2>
+					<p class="feedback__text">
+						Take the next step by learning more about Gibson Consulting’s 
+						capabilities and qualifications. To request information or 
+						arrange face-to-face introduction,<br><br>Simply fill out the 
+						form below or give us a call at 312.291.4640.Take the next 
+						step by learning more.
+					</p>
+					<button class="feedback__box__button">Leran More</button>
+				</div>
+				<form class="feedback__form">
+					<input class="feedback__form__input" placeholder="Full Name" /><br>
+					<input class="feedback__form__input" placeholder="Email" /><br>
+					<input class="feedback__form__input" placeholder="Phone Number" /><br>
+					<input class="feedback__form__input" placeholder="Subject" /><br>
+					<textarea class="feedback__form__input" placeholder="Message"></textarea><br>
+					<button type="button" class="feedback__form__button">Submit</button>
+					<p class="feedback__text">
+						protected by reCAPTCHA<br><br><a class="feedback__link" href="#">Privacy</a> - 
+						<a class="feedback__link" href="#">Terms</a>
+					</p>
+				</form>
 			</div>
-			<form>
-				<input placeholder="Full Name" /><br>
-				<input placeholder="Email" /><br>
-				<input placeholder="Phone Number" /><br>
-				<input placeholder="Subject" /><br>
-				<textarea placeholder="Message"></textarea><br>
-				<button type="button">Submit</button>
-				<p>
-					protected by reCAPTCHA<br><br><a href="#">Privacy</a> - 
-					<a href="#">Terms</a>
-				</p>
-			</form>
-		</div>
+		</section>
 	</main>
-	<footer>
-		<div class="container">
-			<div class="box about">
-				<div class="logo">
-					<img src="images/logo.png" alt="logo" />
+	<footer class="footer">
+		<div class="footer__content">
+			<div class="footer__container-up">
+				<div class="footer__about">
+					<img src="images/logo.png" width="83px" height="30px" class="footer__logo" alt="logo" />
+					<p class="footer__text">
+						According to recent figures, Bangladesh currently According 
+						to recent figures, Bangladesh currently
+					</p>
+					<img src="images/icons.png" width="150px" height="39px" class="footer__icons" alt="" />
 				</div>
-				<p>
-					According to recent figures, Bangladesh currently According 
-					to recent figures, Bangladesh currently
-				</p>
-				<div class="icons">
-					<img src="images/icons.png" />
+				<div class="box">
+					<h2 class="footer__heading">About Us</h2>
+					<p class="footer__text">
+						Advanced Analytics<br><br>Data Insights<br><br>Data Exploration
+						<br><br>Auto Track
+					</p>
+				</div>
+				<div class="box">
+					<h2 class="footer__heading">Services</h2>
+					<p class="footer__text">
+						Article & Blog<br><br>Documentation<br><br>Learn Gulaly<br><br>
+						Tutorials
+					</p>
+				</div>
+				<div class="box">
+					<h2 class="footer__heading">Industries Seerved</h2>
+					<p class="footer__text">
+						Onlin batch<br><br>Offline batch<br><br>Private<br><br><br>
+					</p>
 				</div>
 			</div>
-			<div class="box">
-				<h5>About Us</h5>
-				<p>
-					Advanced Analytics<br><br>Data Insights<br><br>Data Exploration
-					<br><br>Auto Track
-				</p>
-			</div>
-			<div class="box">
-				<h5>Services</h5>
-				<p>
-					Article & Blog<br><br>Documentation<br><br>Learn Gulaly<br><br>
-					Tutorials
-				</p>
-			</div>
-			<div class="box">
-				<h5>Industries Seerved</h5>
-				<p>
-					Onlin batch<br><br>Offline batch<br><br>Private<br><br><br>
-				</p>
-			</div>
-		</div>
-		<div class="container2">
-			<p>2022 S.M.All rights reserved</p>
-			<div class="box">
-				<p>Privacy Policy</p>
-				<p>Terms & Conditions</p>
+			<div class="footer__container-down">
+				<p class="footer__text">2022 S.M.All rights reserved</p>
+				<div class="footer__container-down__box">
+					<p class="footer__text">Privacy Policy</p>
+					<p class="footer__text">Terms & Conditions</p>
+				</div>
 			</div>
 		</div>
 	</footer>

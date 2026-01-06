@@ -1,0 +1,40 @@
+.cunsulting {
+	background: #292A29;
+	padding: 102px 0 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.cunsulting__container {
+	width: 1164px;
+	display: flex;
+	justify-content: space-between;
+	gap: 161px;
+}
+
+.cunsulting__box {
+	width: 516px;
+}
+
+.cunsulting__heading {
+	color: #FFFFFF;
+	font-size: 66px;
+	font-weight: 400;
+}
+
+.cunsulting__desc {
+	margin-top: 12px;
+	width: 432px;
+	font-size: 17px;
+}
+
+.cunsulting__about {
+	font-weight: 700;
+	margin-top: 38px;
+	padding: 16px 34px;
+}
+
+.cunsulting__image {
+	position: absolute;
+	left: 850px;
+}

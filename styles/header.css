@@ -1,43 +1,29 @@
-header {
+.header {
 	background: #292A29;
-}
-
-header .container {
 	padding-top: 32px;
-}
-
-header .box {
 	display: flex;
-    align-items: center;
-	white-space: nowrap;
+    justify-content: center;
 }
 
-header .logo {
-	margin-left: 135px;
-	display: inline-block;
-} 
-
-header img {
-	width: 116px;
-	height: 48px;
+.header__container {
+	width: 1164px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-header nav {
-	margin-top: 6px;
-	margin-left: 120px;
-	display: inline-block;
+.header__link-list {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
 }
 
-header a {
+.header__link {
 	font-size: 15px;
 	text-decoration: none;
-	font-family: "DM sans", sans-serif;
 	color: #FFFFFF;
-	margin-right: 24px;
 }
 
-header button {
-	margin-top: 0;
-	margin-left: 122px;
+.header__button {
 	padding: 14px 24px;
 }

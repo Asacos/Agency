@@ -1,0 +1,35 @@
+.methodology {
+	display: flex;
+	justify-content: center;
+}
+
+.methodology__container {
+	margin: 116px 0;
+	width: 1140px;
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+	gap: 72px;
+} 
+
+.methodology__box {
+	width: 508px;
+}
+
+.methodology__heading {
+	margin-top: 8px;
+	color: #FFFFFF;
+	font-size: 38px;
+	font-weight: 400;
+}
+
+.methodology__desc {
+	margin-top: 12px;
+	font-size: 17px;
+	line-height: 150%;
+}
+
+.methodology__button {
+	margin-top: 38px;
+	padding: 16px 34px;
+}

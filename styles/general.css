@@ -6,11 +6,14 @@
 body {
 	background: #3A3B3A;
 	min-width: 1365px;
+	font-family: "DM sans", sans-serif;
+}
+
+ul {
+	list-style: none;
 }
 
 button {
-	margin-top: 38px;
-	padding: 16px 34px;
 	background-color: #F5CD76;
 	border-radius: 5px;
 	font-family: "DM sans", sans-serif;
@@ -19,26 +22,10 @@ button {
 
 span {
 	color: #A47A26;
-	font-family: "DM sans", sans-serif;
 	font-size: 13px;
 }
 
 p {
 	color: #D7D7D7;
-	font-family: "DM sans", sans-serif;
 	font-weight: 400px;
-}
-
-h2 {
-	color: #FFFFFF;
-	font-family: "DM Serif Display", serif;
-	font-size: 53px;
-	font-weight: 400;
-}
-
-h3 {
-	color: #FFFFFF;
-	font-family: "DM Serif Display", serif;
-	font-size: 38px;
-	font-weight: 400;
 }
