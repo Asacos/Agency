@@ -1,3 +1,1 @@
 # Agency
-
-![](screenshot.png)
